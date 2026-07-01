@@ -69,19 +69,19 @@ Loaded the raw data CSV using pgAdmin's native import feature.
 Troubleshooting: Resolved standard encoding roadblocks (UTF-8 errors) by explicitly saving and re-encoding the source file into CSV UTF-8 format before staging.
 ---
 ### 3. 🔍 Exploratory Data Analysis (EDA)
-* **Initial database probing to assess data health, structure, and scale:
+* Initial database probing to assess data health, structure, and scale:
 
-* **Counted the total record volume in the dataset.
+* Counted the total record volume in the dataset.
 
-* **Sampled rows to verify structural data mapping.
+* Sampled rows to verify structural data mapping.
 
-* **Isolated null and missing fields across all columns.
+* Isolated null and missing fields across all columns.
 
-* **Extracted distinct product categories available.
+* Extracted distinct product categories available.
 
-* **Aggregated in-stock vs. out-of-stock product counts.
+* Aggregated in-stock vs. out-of-stock product counts.
 
-* **Analyzed duplicate name structures representing distinct SKUs.
+* Analyzed duplicate name structures representing distinct SKUs.
 ---
 ### 4. 🧹 Data Cleaning & Preprocessing
 Identified and purged broken rows where the mrp or discountedSellingPrice registered as zero.
