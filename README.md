@@ -86,26 +86,27 @@ Troubleshooting: Resolved standard encoding roadblocks (UTF-8 errors) by explici
 ### 4. 🧹 Data Cleaning & Preprocessing
 Identified and purged broken rows where the mrp or discountedSellingPrice registered as zero.
 
-Standardized pricing metrics by converting mrp and discountedSellingPrice from paise to rupees (Divided by 100) to ensure readability and downstream accuracy.
+**Standardized pricing metrics by converting mrp and discountedSellingPrice from paise to rupees (Divided by 100) to ensure readability and downstream accuracy.
+**
 ---
 ### 5. 📊 Business Insights & Analytics
-* **Wrote target-driven SQL business logic to answer critical performance questions:
+* Wrote target-driven SQL business logic to answer critical performance questions:
 
-* **Top Value: Isolated the top 10 best-value products by maximum discount depth.
+* Top Value: Isolated the top 10 best-value products by maximum discount depth.
 
-* **Risk Management: Flagged high-ticket, high-MRP products currently sitting out of stock.
+* Risk Management: Flagged high-ticket, high-MRP products currently sitting out of stock.
 
-* **Revenue Projections: Calculated estimated potential revenue metrics broken down by product category.
+* Revenue Projections: Calculated estimated potential revenue metrics broken down by product category.
 
-* **Margin Analysis: Filtered high-cost products (MRP > ₹500) offered with minimal discounts.
+* Margin Analysis: Filtered high-cost products (MRP > ₹500) offered with minimal discounts.
 
-* **Category Rank: Ranked the top 5 product categories offering the highest average discount rates.
+* Category Rank: Ranked the top 5 product categories offering the highest average discount rates.
 
-* **Unit Economics: Formulated price-per-gram fields to map out ultimate value-for-money items.
+* Unit Economics: Formulated price-per-gram fields to map out ultimate value-for-money items.
 
-* **Inventory Segmenting: Used conditional grouping to segment products into Low, Medium, and Bulk weight categories.
+* Inventory Segmenting: Used conditional grouping to segment products into Low, Medium, and Bulk weight categories.
 
-* **Logistics Focus: Measured aggregate inventory weight metrics across individual categories.
+* Logistics Focus: Measured aggregate inventory weight metrics across individual categories.
 ---
 🛠️ How to Use This Project
 Prerequisite
