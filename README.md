@@ -84,13 +84,13 @@ Troubleshooting: Resolved standard encoding roadblocks (UTF-8 errors) by explici
 * Analyzed duplicate name structures representing distinct SKUs.
 ---
 ### 4. 🧹 Data Cleaning & Preprocessing
-Identified and purged broken rows where the mrp or discountedSellingPrice registered as zero.
+* Identified and purged broken rows where the mrp or discountedSellingPrice registered as zero.
 
-**Standardized pricing metrics by converting mrp and discountedSellingPrice from paise to rupees (Divided by 100) to ensure readability and downstream accuracy.
-**
+* Standardized pricing metrics by converting mrp and discountedSellingPrice from paise to rupees (Divided by 100) to ensure readability and downstream accuracy.
+
 ---
 ### 5. 📊 Business Insights & Analytics
-* Wrote target-driven SQL business logic to answer critical performance questions:
+Wrote target-driven SQL business logic to answer critical performance questions:
 
 * Top Value: Isolated the top 10 best-value products by maximum discount depth.
 
@@ -110,5 +110,6 @@ Identified and purged broken rows where the mrp or discountedSellingPrice regist
 ---
 🛠️ How to Use This Project
 Prerequisite
+
 Make sure you have a PostgreSQL client installed (like pgAdmin or DBeaver).
 ---
