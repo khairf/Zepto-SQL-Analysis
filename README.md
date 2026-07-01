@@ -1,4 +1,4 @@
-# ⚡ Zepto E-Commerce Inventory SQL Data Analysis Project
+# ⚡ Zepto SQL Data Analysis Project
 
 This is a complete, real-world data analyst portfolio project based on an e-commerce inventory dataset scraped from **Zepto** — one of India’s fastest-growing quick-commerce startups. This project simulates real analyst workflows, from raw data exploration to business-focused data analysis.
 
@@ -63,11 +63,12 @@ CREATE TABLE zepto (
   quantity INTEGER
 );
 ```
+---
 ### 2. Data Import
 Loaded the raw data CSV using pgAdmin's native import feature.
 
 Troubleshooting: Resolved standard encoding roadblocks (UTF-8 errors) by explicitly saving and re-encoding the source file into CSV UTF-8 format before staging.
-
+---
 ### 3. 🔍 Exploratory Data Analysis (EDA)
 Initial database probing to assess data health, structure, and scale:
 
@@ -82,12 +83,12 @@ Extracted distinct product categories available.
 Aggregated in-stock vs. out-of-stock product counts.
 
 Analyzed duplicate name structures representing distinct SKUs.
-
+---
 ### 4. 🧹 Data Cleaning & Preprocessing
 Identified and purged broken rows where the mrp or discountedSellingPrice registered as zero.
 
 Standardized pricing metrics by converting mrp and discountedSellingPrice from paise to rupees (Divided by 100) to ensure readability and downstream accuracy.
-
+---
 ### 5. 📊 Business Insights & Analytics
 Wrote target-driven SQL business logic to answer critical performance questions:
 
@@ -106,7 +107,8 @@ Unit Economics: Formulated price-per-gram fields to map out ultimate value-for-m
 Inventory Segmenting: Used conditional grouping to segment products into Low, Medium, and Bulk weight categories.
 
 Logistics Focus: Measured aggregate inventory weight metrics across individual categories.
-
+---
 🛠️ How to Use This Project
 Prerequisite
 Make sure you have a PostgreSQL client installed (like pgAdmin or DBeaver).
+---
