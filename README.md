@@ -111,5 +111,5 @@ Wrote target-driven SQL business logic to answer critical performance questions:
 🛠️ How to Use This Project
 Prerequisite
 
-Make sure you have a PostgreSQL client installed (like pgAdmin or DBeaver).
+* Make sure you have a PostgreSQL client installed (like pgAdmin or DBeaver).
 ---
